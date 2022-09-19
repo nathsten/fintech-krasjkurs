@@ -1,0 +1,2 @@
+# fintech-krasjkurs
+Kursprosjekt fintech 
