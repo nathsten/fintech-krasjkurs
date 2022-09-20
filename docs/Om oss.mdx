@@ -1,0 +1,12 @@
+import styles from './css/OmOss.modules.css';
+
+export const Button = ({children, url}) => {
+    return (
+        <a href={url} className={styles.myButton}>
+            {children}
+        </a>
+    );
+}
+
+ ## Her er en knapp!
+<Button url="https://github.com/nathsten">Følg meg :)</Button>

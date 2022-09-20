@@ -1,0 +1,10 @@
+.myButton{
+    transition: 250ms;
+    background-color: blue;
+    border: green 1px solid;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+}
