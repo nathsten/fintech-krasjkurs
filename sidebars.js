@@ -30,7 +30,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Algoritmeprotefølje',
-      items: ['Algoritmeportefølje', 'Høne Algo'], 
+      items: ['Algoritmeportefølje', 'Høne Algo', 'Forex bot'], 
     },
   ],
 };

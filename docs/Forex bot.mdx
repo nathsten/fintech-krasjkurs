@@ -1,0 +1,28 @@
+## Tradig bot som handler NOK/USD.
+
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+
+export const UsdNok = ({children}) => {
+    const [ NOKUSD, setResUSD ] = useState(null);
+    useEffect( () => {
+        const get = () => {
+            axios.get('https://open.er-api.com/v6/latest/USD')
+            .then(res => {
+                console.log(res.data);
+                setResUSD(res.data.rates.NOK);
+            });
+        }
+        get();
+    }, []);
+    return (
+        <span>
+            <span>{children} ${(Number(NOKUSD)/10).toFixed(2)}</span>
+        </span>
+    );
+}
+
+### Dette er prisen på 10kr nå!
+
+Hentet fra denne api'en `https://open.er-api.com/v6/latest/USD`
+<UsdNok>10kr = </UsdNok>
