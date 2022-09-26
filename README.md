@@ -162,6 +162,8 @@ Kurset består av følgende deler.
 
 * > Packagemanageren `pip`. 
 
+* > `web sockets` for _strømmende_ data
+
 **Forslag til algoritme:**
 
 * >Tradisjonell Tradingbot. 
