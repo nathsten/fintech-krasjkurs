@@ -1,0 +1,3 @@
+# Trading Algoritme. 
+
+Mer detaljert info kommer ...

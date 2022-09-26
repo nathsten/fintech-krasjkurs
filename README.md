@@ -8,8 +8,9 @@ Kurset strekker seg over tre timer og består av 6 deler. Vi vil ta for oss det 
 ## Før kursstart. 
 
 1. Last ned [VS-Code](https://code.visualstudio.com/), dersom du ikke allerede har gjort det. 
+    > Dersom du får til, last også ned _Live Server_ utvidelsen. Blir event gitt instrukser på kursdagen. 
 
-2. Lag bruker på [github.com](https://github.com/) om du ikke allerede har det
+2. Lag bruker på [github.com](https://github.com/) om du ikke allerede har det.
 
 3. Følg [meg](https://github.com/nathsten) på GitHub. 
 
@@ -143,9 +144,10 @@ Kurset består av følgende deler.
 
 ### **Del 4. Orientering om Algoritmeutviklingen.** 
 
-> Dette er et veldig åpent prosjekt, og det er opp til en hver enkelt til hva en ønsker å gjøre. 
+> Dette er et veldig åpent prosjekt, og det er opp til en hver enkelt til hva en ønsker å forelså. 
 
 > Grunnleggende python programmering kommer veldig nyttig. Så sørg for å jobbe med det først før dere hopper på tradingalgoritme :)
+
 
 **Viktige nøkkelord**
 * > Funksjoner og klasser. 
@@ -171,6 +173,8 @@ Kurset består av følgende deler.
 **Intro til [Alpaca Markets](https://alpaca.markets/docs/api-references/trading-api/).**
 
 * Hvordan det brukes og hva som må gjøres i forkant. 
+
+* Se egen [mappe](https://github.com/nathsten/fintech-krasjkurs/tree/main/algo) for mer detaljert beskrivelse av oppsett av trading algoritme
 
 ### **Del 5. Prosjektoppgave.** 
 
@@ -199,9 +203,9 @@ Hvordan går vi videre fra dette?
 
 > Hint: Jobbe med det selv og i grupper. 
 
-Mer info til prosjektoppgaven. 
-
 > Husk at google er din beste venn :)
+
+Mer info til prosjektoppgaven. 
 
 Avtaler neste gang vi møtes. 
 
