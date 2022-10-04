@@ -3,7 +3,9 @@
 ## Steg 1. 
 - For å komme i gang med algoritmisk trading må du først opprette en konto på [alpaca markets](https://alpaca.markets/).
 
-- Her finner du også din API-key og secret-key på paper-dashboard under API-key. 
+- Her finner du også din API-key og secret-key på _Paper Overview_ under _Your API-keys_. 
+
+- Mer dokumentasjon om API'en finner du [her](https://alpaca.markets/docs/trading/). 
 
 ## Steg 2. 
 Installer python pakken for alpaca sin api:
@@ -34,7 +36,7 @@ Installer python pakken for alpaca sin api:
     import alpaca_trade_api as tradeapi
     ````
 
-- Definner variabler for _end point_, _api key_, og _secret key__
+- Definner variabler for _end point_, _api key_, og _secret key_
 
     ````python
     END_POINT = "https://paper-api.alpaca.markets"
