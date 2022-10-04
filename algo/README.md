@@ -60,6 +60,8 @@ Installer python pakken for alpaca sin api:
 
 ## Steg 4. 
 Slå deg løs!! :grinning:
+
+
 ![Go wild](https://c.tenor.com/huuQ4PxKMTYAAAAC/madagascar-alex-the-lion.gif)
 
 ---
