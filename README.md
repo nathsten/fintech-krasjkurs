@@ -197,7 +197,7 @@ Tips til nøkkelord å ta med i søket for hjelp på nett:
 >React element with mdx
 
 
-### **Del 6. Oppsummering.**
+### **Del 6. Oppsummering og intro til webservere (for interesserte)**
 
 Hva har vi lært?
 
@@ -210,5 +210,11 @@ Hvordan går vi videre fra dette?
 Mer info til prosjektoppgaven. 
 
 Avtaler neste gang vi møtes. 
+
+Kort introduksjon til [web-servere](https://github.com/nathsten/fintech-krasjkurs/tree/main/webserver) (for de som er interesserte). 
+
+> Hvordan fungerer webserver?
+
+> Sette opp vår egen liten webserver. 
 
 Vel møtt :)

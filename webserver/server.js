@@ -1,0 +1,1 @@
+// Vi går gjennom oppsettet på kursdagen! :)
