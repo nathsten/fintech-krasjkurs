@@ -1,0 +1,19 @@
+.overskrift{
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+}
+
+.minKomponent{
+    border: black 2px solid;
+    background-color: aqua;
+}
+
+.minKomponent>p{
+    color: rgb(65, 85, 83);
+}
+
+.minKomponent>h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
