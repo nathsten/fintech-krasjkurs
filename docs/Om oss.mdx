@@ -1,12 +1,46 @@
+# Fintech Enigma
+
 import styles from './css/OmOss.modules.css';
 
-export const Button = ({children, url}) => {
-    return (
-        <a href={url} className={styles.myButton}>
-            {children}
-        </a>
-    );
+export const klikkeFunksjon = () => {
+    alert("Du klikket på meg!");
 }
 
- ## Her er en knapp!
-<Button url="https://github.com/nathsten/fintech-krasjkurs">Følg oss :)</Button>
+export const Knapp = ({children, url}) => {
+    return (
+        <div>
+        <h2 className={styles.overskrift}>{children}</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, laudantium doloremque ut animi, quisquam facilis sed voluptate ex recusandae earum fugit eos incidunt sit sequi similique rem eveniet dicta ad?</p>
+        <div>
+            <ul>
+                <li>1. aksje</li>
+                <li>2. aksje</li>
+                <li>3. aksje</li>
+            </ul>
+        </div>
+        <h2>Portefølje</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias totam magnam doloremque nemo a, neque quia dolorum provident error quae itaque perspiciatis commodi, officiis repellendus, nihil laborum nulla? Assumenda, est.</p>
+        <a href={url}>Klikk her</a>
+        </div>
+    )
+}
+
+export const Bilde = ({children}) => {
+    return (
+        <div className={styles.bilde}></div>
+    )
+}
+
+### Her bruker vi Knapp
+
+<Knapp url={"https://www.tesla.com/no_no"}>Om oss</Knapp>
+
+## Her er logoen vår
+
+
+<Bilde></Bilde>
+
+<Knapp url={"vg.no"}>Om oss</Knapp>
+
+
+Hei vi jobber med [tesla](https://www.tesla.com/no_no)

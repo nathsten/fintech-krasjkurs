@@ -20,7 +20,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Om oss',
-      items: ['Om oss'], 
+      items: ['Om oss', 'vedtekter'], 
     },
     {
       type: 'category',
@@ -30,7 +30,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Algoritmeprotefølje',
-      items: ['Algoritmeportefølje', 'Høne Algo', 'Forex bot'], 
+      items: ['Algoritmeportefølje', 'Høne Algo', 'Forex bot', 'twitter bot'], 
     },
   ],
 };

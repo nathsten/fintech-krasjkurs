@@ -25,7 +25,7 @@ Installer python pakken for alpaca sin api:
 
 - Installer så pakken:
     ````
-    pip3 install aplca-trade-api. 
+    pip3 install alpaca-trade-api. 
     ````
 
 ## Steg 3. 
