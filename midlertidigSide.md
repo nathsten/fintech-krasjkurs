@@ -2,6 +2,12 @@
 
 ## Krav:
 
+### Bruk av teknologi:
+
+- Du skal kun bruke vanlig HTML, CSS og JavaScript for denne siden. 
+
+- Lag en ny mappe på din PC og sett i gang! :)
+
 ### Logo
 
 - Det første som vises er logoen vår.
@@ -12,9 +18,14 @@
 
 - Det skal stå noe slikt at nettsiden kommer snart.
 
+### Mulighet for å vise til sponsorer og sammarbeidspartnere
+
+- Gjør det enkelt å legge til sammarbeidspartnere som Enigma og eventuelle logoer til sponsorer nederst på siden. 
+
 ### Design
 
 - Bruk et kult design, bruk fargene som ligger i [pdf-filen](https://github.com/nathsten/fintech-krasjkurs/blob/main/docs/images/GrafiskProfil01.pdf) som omhandler logoene
+
 
 - Bruk noen kule fonter, eks: (pleier å være bankers)
 
