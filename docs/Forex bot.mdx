@@ -13,33 +13,12 @@ export const UsdNok = ({children}) => {
     }, []);
     return (
         <span>
-            <span>{children} ${(Number(NOKUSD)/10).toFixed(2)}</span>
+            <span>{children} ${(10 / Number(NOKUSD)).toFixed(2)}</span>
         </span>
     );
-}
-
-export const NyUSDNOK = ({children}) => {
-    const [ NOKUSD, setResUSD ] = useState(null);
-    useEffect( () => {
-        fetch('https://open.er-api.com/v6/latest/USD')
-        .then(res => res.json())
-        .then(res => {
-            setResUSD(res.data.rates.NOK);
-        })
-        .catch(e => console.log(e))
-        .finally(() => console.log("All good"))
-    }, []);
-    return (
-        <span>
-            <span>{children} ${(Number(NOKUSD)/10).toFixed(2)}</span>
-        </span>
-    )
 }
 
 ### Dette er prisen på 10kr nå!
 
 Hentet fra denne api'en `https://open.er-api.com/v6/latest/USD`
 <UsdNok>10kr = </UsdNok>
-
-<h3 style={{color: 'lightblue'}}>En annen måte å vise det på (med ren javascipt, som burde funke men gjør det ikke....):</h3>
-<NyUSDNOK>10kr = </NyUSDNOK>
